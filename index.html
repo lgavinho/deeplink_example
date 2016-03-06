@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Deeplink Example</title>
+    <script src="jquery-2.2.1.min.js"></script>
+</head>
+<body>
+
+<h1> Deeplink Example</h1>
+
+<div id="url"></div>
+
+<script>
+    var el = document.createElement('a');
+    el.href = window.location.href;
+    $("#url").html(el.pathname);
+
+</script>
+
+</body>
+</html>

@@ -1,14 +1,14 @@
 {
-    “applinks”: {
-        “apps”: [],
-        “details”: [
+    "applinks": {
+        "apps": [],
+        "details": [
             {
-                “appID”: “L6U87HQ6E4.com.my.bundle.id“,
-                “paths”: [ “/myPath1”, “/myPath2/*” ]
+                "appID": "L6U87HQ6E4.br.com.gavinholabs.deeplink",
+                "paths": [ "/*" ]
             },
             {
-                “appID”: “TeamID.BundleID2”,
-                “paths”: [ “*” ]
+                "appID": "TeamID.BundleID2",
+                "paths": [ "*" ]
             }
         ]
     }
